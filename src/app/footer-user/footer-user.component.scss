@@ -1,0 +1,22 @@
+footer {
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(62, 40, 141);
+  padding-left: 10px;
+  padding-right: 10px;
+}
+ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  transition: 0.3s ease-in-out;
+  &:hover {
+    color: aqua;
+  }
+}
